@@ -1,4 +1,13 @@
-# test_folder
+
+Инструкция по запуску:
+1) Если запускаем клиентскую часть отдельно от серверной, то в файле
+client_config.ts необходимо указать адрес сервера, на котором работает API, в
+переменной serverUrl, например, http://localhost:3000
+2) Порядок запуска в VS Code обычный для шаблонов Vue (список команд ниже).
+
+Прочее:
+- Репозитарий серверной части с инструкцией по запуску находится здесь
+https://github.com/maildifferent/task-amocrm-rocket-serv
 
 ## Project setup
 ```
@@ -14,11 +23,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
